@@ -1,6 +1,7 @@
 package com.example.mvvm.Network;
 
 import android.util.Log;
+import android.widget.TextView;
 
 import com.example.mvvm.Model.Posts;
 
@@ -15,6 +16,7 @@ public class PostRepository {
 
     private JsonPlaceHolder jsonPlaceHolder ;
 
+    private TextView textView ;
     public PostRepository() {
         jsonPlaceHolder = ApiResponse.getJsonResponse().create(JsonPlaceHolder.class);
     }
