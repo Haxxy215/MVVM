@@ -16,7 +16,6 @@ public class PostRepository {
 
     private JsonPlaceHolder jsonPlaceHolder ;
 
-    private TextView textView ;
     public PostRepository() {
         jsonPlaceHolder = ApiResponse.getJsonResponse().create(JsonPlaceHolder.class);
     }
